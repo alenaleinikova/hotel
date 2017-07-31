@@ -1,0 +1,671 @@
+@font-face{
+  font-family: Roboto-Medium;
+  src: url(fonts/Robotomedium.ttf);
+}
+
+@font-face{
+  font-family: Roboto-regular;
+  src: url(fonts/Roboto-regular.ttf);
+}
+
+@font-face{
+  font-family: Roboto-light;
+  src: url(fonts/Robotolight.ttf);
+}
+
+html{
+  font-size: 100%;
+}
+
+.container{
+  width: 80%;
+  padding: 0% 10%;
+}
+
+.phone{
+  padding-top: 7%;;
+  color: #1c1c1c;
+  font-family: Roboto-regular;
+}
+
+span{
+  display: inline-block;
+  clear: both;
+  color: #1c1c1c;
+
+}
+
+.down{
+  padding-top: 1%;
+  color: #1c1c1c;
+  font-family: Roboto-regular;
+}
+
+.logotype{
+  padding-bottom: 5%;
+}
+
+.nav{
+  justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+  padding-top: 2.5%;
+}
+
+.menu{
+  text-decoration: none;
+  font-size: 16px;
+  color: #1c1c1c;
+  font-family: Roboto-regular;
+}
+
+.menu:hover{
+  text-decoration: none;
+  border-bottom: 1px solid #ff4644;
+  color: #1c1c1c;
+}
+
+.menu:active{
+  color: #ff4644;
+  text-decoration: none;
+}
+
+.menu:focus{
+  color: #ff4644;
+  text-decoration: none;
+}
+
+
+
+.two{
+  opacity: 0.1;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 100%;
+}
+
+.promo-row{
+  width: 85%;
+  margin-left: 7.5%;
+}
+
+.slogan{
+  padding: 0%;
+  margin: 0% ;
+}
+
+.promo-slogan{
+  font-family: Roboto-Medium;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  padding: 30% 0% 13% 0%;
+  display: block;
+}
+
+.promo{
+  position: relative;
+  text-align: center;
+  background: url(img/11.jpg) no-repeat;
+  background-size: cover;
+}
+
+.button-offer{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: Roboto-Medium;
+  padding: 7px;
+  border: 1px solid #fff;
+  display: inline-block;
+  border-radius: 0px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.button-offer:hover{
+  color: #ff4644;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+
+#btn-active:active{
+  color: #ff4644;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+
+#btn-active:focus{
+  color: #ff4644;
+  background-color: #fff;
+  text-decoration: none;
+  border: 3px solid #fff;
+}
+
+.video{
+  margin: 15% 0% 20%;
+}
+
+.tips{
+  text-align: center;
+  padding: 7% 0%;
+  margin: 20% 0%;
+  border-top: 1px solid #ff4644;
+  font-family: Roboto-light;
+}
+
+.room-tips{
+  margin-top: 10%;
+}
+
+.rooms{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.room-btn-box{
+  width: 100%;
+  border: 1px solid #ff4644;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 2% 0%;
+  position: relative;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.fist-btn{
+  color: #ff4644;
+  padding: 2%;
+  display: inline-block;
+  margin: 0px;
+  font-family: Roboto-light;
+  font-size: 16px;
+  clear: both;
+  width: 100%;
+  font-weight: bold;
+}
+
+.fist-btn:hover{
+  text-decoration: none;
+  color: #ff4644;
+  padding: 2%;
+  display: inline-block;
+  margin: 0px;
+  font-family: Roboto-light;
+  font-size:  16px;
+  clear: both;
+  width: 100%;
+  font-weight: bold;
+}
+
+.second-btn{
+  font-family: Roboto-light;
+  color: #fff;
+  font-size: 14px;
+  background-color: #ff4644;
+  padding: 2%;
+  display: inline-block;
+  margin: 0px;
+  border: 1px solid #ff4644;
+  float: left;
+}
+
+.second-btn:hover{
+  text-decoration: none;
+  font-family: Roboto-light;
+  color: #fff;
+  font-size: 14px;
+  background-color: #ff4644;
+  padding: 2%;
+  display: inline-block;
+  margin: 0px;
+  border: 1px solid #ff4644;
+  float: left;
+}
+
+.room-foto{
+  width: 100%;
+  margin: 5% 0%;
+}
+
+.room-img-box:hover .rooms-about{
+  display: flex;
+}
+
+.room-img-box{
+  position: relative;
+}
+
+.rooms-about{
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rooms-about > span {
+  color: #000;
+  font-family: Roboto-Medium;
+  font-size: 14px;
+}
+
+.rooms-box{
+  background-image: url(img/21.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  width: 100%;
+}
+
+.btn-order{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 2% 0%;
+}
+
+.about-us{
+  text-align: center;
+  font-family: Roboto-light;
+  font-size: 18px;
+  display: inline-block;
+  padding: 5% 0px;
+}
+
+.chek-box{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.plus-row{
+  background-color: #ff4644;
+  position: relative;
+}
+
+.icons{
+  width: 65px;
+  height: 65px;
+  margin: 20% 20% 5%;
+  display: inline-block;
+  filter: drop-shadow(0 0 3px #c13a39);
+}
+
+.service{
+  font-family: Roboto-Medium;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+
+.book-icon{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.foto{
+  padding: 0px;
+}
+
+
+.base-top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.base-first{
+  width: 80%;
+  height: 0;
+  border-bottom: 100px solid #ff4644;
+  border-left: 80vw solid transparent;
+}
+
+.base-second{
+  width: 20%;
+  height: 0;
+  border-bottom: 100px solid #ff4644;
+  border-right: 20vw solid transparent;
+}
+
+.base-bottom-box{
+  overflow: hidden;
+  width: 100%;
+}
+
+.base-bottom{
+  width: 100%;
+  height: 0;
+  border-top: 100px solid #ff4644;
+  border-left: 100vw solid transparent;
+}
+
+.offer-row{
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.grey-box{
+  height: 20%;
+  position: absolute;
+  top: 23%;
+  left: 0;
+  width: 100%;
+  background-color: lightgrey;
+  z-index: -1;
+}
+
+.map{
+  padding: 0px;
+}
+
+.map-row{
+  position: relative;
+}
+
+.map-contact{
+  background-color: #fff;
+  opacity: 0.95;
+  z-index: 5000;
+  position: absolute;
+  left: 4.5%;
+  top: 12%;
+  width: 250px;
+}
+
+.map-contact-box{
+  background-color: #ff4644;
+  padding: 0.4% 0%;
+}
+
+.map-phone{
+  text-align: center;
+  margin: 9% 0%;
+  color: #fff;
+}
+
+.map-logo{
+  margin: 5% 30%;
+  margin-bottom: 3%;
+  display: inline-block;
+}
+
+
+
+/*ВТорая страница*/
+
+
+.room-slogan{
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-family: Roboto-light;
+  background-color: #ff4644;
+  padding: 2%;
+  margin: 0%;
+  font-weight: bold;
+}
+
+.room-page-box{
+  width: 80%;
+  border-bottom: 1px solid #ff4644;
+  padding: 0% 2%;
+  margin: 3%;
+  margin-left: 10%;
+}
+
+.room-name-box{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.room-name{
+  text-align: center;
+  font-family: Roboto-light;
+  font-size: 20px;
+  color: #ff4644;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.img-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0%;
+}
+
+.big-img{
+  width: 100%;
+  height: 55vh;
+}
+
+.big-img-box{
+  width: 70%;
+}
+
+.img-row{
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+
+
+}
+
+.small-foto{
+  width: 100%;
+  height: 17vh;
+}
+
+.text-room-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.room-list{
+  width: 35%;
+}
+
+ul{
+  padding: 0%;
+}
+
+li{
+  font-size: 16px;
+  font-family: Roboto-light;
+  color: #1c1c1c;
+  list-style-type: none;
+}
+
+li:before{
+  content: '\2714';
+  color: #ff4644;
+  margin-right: 3%;
+}
+
+.room-box-inner{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+#room-list-btn{
+  color: #ff4644;
+  padding: 5%;
+  border: 1px solid #ff4644;
+  text-decoration: none;
+  font-family: Roboto-Medium;
+  font-size: 20px;
+}
+
+#room-list-btn:hover{
+  color: #fff;
+  background-color: #ff4644;
+  text-decoration: none;
+  border: 1px solid #ff4644;
+}
+
+#room-list-btn:active{
+  color: #ff4644;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #ff4644;
+}
+
+#btn-active:focus{
+  color: #ff4644;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #ff4644;
+}
+
+.last-room{
+  border: 0px;
+}
+
+
+
+/*MEDIA*/
+
+@media screen and (min-width: 1450px){
+  .promo-slogan{
+    font-size: 36px;
+  }
+  .menu{
+  font-size: 20px;
+  }
+  .header-text{
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .menu{
+    font-size: 14px;
+  }
+  .fist-btn{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .header-text{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .logotype{
+    width: 110px;
+  }
+  .header-text{
+    font-size: 16px;
+  }
+  .nav{
+    padding: 1% 0%;
+  }
+  .big-img{
+    height: 40vh;
+  }
+  .small-foto{
+    height: 10vh;
+  }
+  .room-name{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .icons{
+    margin: 20% 35% 5%;
+  }
+  .map-contact{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 0;
+  }
+  .phone{
+    padding-top: 1%;
+  }
+  .big-img{
+    height: 30vh;
+  }
+  .small-foto{
+    height: 8vh;
+  }
+  .room-name{
+    font-size: 16px;
+  }
+  .box-btn-list{
+    width: 100%;
+    text-align: center;
+  }
+  li{
+    font-size: 14px;
+  }
+  .room-box-inner{
+    width: 100%;
+  }
+  .text-room-box{
+    flex-direction: column;
+  }
+  .room-list{
+    width: 45%;
+  }
+  .room-page-box{
+    width: 90%;
+    margin-left: 5%;
+  }
+  #room-list-btn{
+    font-size: 14px;
+    padding: 3%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1000;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .two{
+    display: none;
+  }
+  .header-text{
+    font-size: 14px;
+    color: #1c1c1c;
+    text-decoration: none;
+  }
+  .container{
+    width: 100%;
+    padding: 0%;
+    overflow: hidden;
+  }
+}
